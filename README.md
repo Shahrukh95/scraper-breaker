@@ -26,13 +26,7 @@ uv sync
 
 ## Usage
 
-3. **Activate the virtual environment**:
-
-```bash
-source .venv/bin/activate
-```
-
-4. **Run the main script**:
+2. **Run the main script**:
 
 ```bash
 uv run main.py
