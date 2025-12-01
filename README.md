@@ -38,9 +38,9 @@ Or with the virtual environment activated:
 python main.py
 ```
 
-The script will download PDF files from specified URLs and save them to the `downloads` directory.
+The script will download PDF files from the specified URLs in `main.py` and save them to the `downloads` directory (auto created).
 
-You can download other PDFs by modifying the following line `main.py`:
+You can download other PDFs by modifying the following line in `main.py`:
 
 ```python
 download_file("your-pdf-url-here.pdf", driver)
