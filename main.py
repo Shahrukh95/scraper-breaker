@@ -5,8 +5,6 @@ import time
 # Local Imports
 from Classes.Selenium import Selenium
 
-# DEVELOPMENT ONLY
-
 def get_downloaded_filename(download_dir):
     """Return the most recently added file in the download directory, or None if not found."""
     files = [
@@ -24,8 +22,8 @@ def get_downloaded_filename(download_dir):
 
 
 def download_file(url, driver):
-    """*ONLY FOR TESTING PURPOSES* Download a file from a URL using the selenium driver. The download path should be set in the Selenium class."""
-    # THE TRICK IS HERE :)
+    """Download a file from a URL using the selenium driver. The download path should be set in the Selenium class."""
+    
     for i in range(4):
         driver.get(url)
         time.sleep(5)
