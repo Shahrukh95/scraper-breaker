@@ -32,12 +32,6 @@ uv sync
 uv run main.py
 ```
 
-Or with the virtual environment activated:
-
-```bash
-python main.py
-```
-
 The script will download PDF files from the specified URLs in `main.py` and save them to the `downloads` directory (auto created).
 
 You can download other PDFs by modifying the following line in `main.py`:
