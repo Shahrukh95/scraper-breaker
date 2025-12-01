@@ -26,7 +26,7 @@ uv sync
 
 ## Usage
 
-2. **Run the main script**:
+3. **Run the main script**:
 
 ```bash
 uv run main.py
