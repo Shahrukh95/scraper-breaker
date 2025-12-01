@@ -24,7 +24,7 @@ source .venv/bin/activate
 uv pip install -e .
 ```
 
-## Running the Project
+## Usage
 
 3. **Activate the virtual environment**:
 
@@ -45,6 +45,12 @@ python main.py
 ```
 
 The script will download PDF files from specified URLs and save them to the `downloads` directory.
+
+You can download other PDFs by modifying the following line `main.py`:
+
+```python
+download_file("your-pdf-url-here.pdf", driver)
+```
 
 ## Project Structure
 
@@ -67,10 +73,3 @@ The script will download PDF files from specified URLs and save them to the `dow
 - **SSL Certificate Handling**: Ignores certificate errors for testing purposes
 - **Auto-Retry**: Attempts downloads up to 4 times if needed
 
-## Usage
-
-To download PDFs, modify the URLs in `main.py`:
-
-```python
-download_file("your-pdf-url-here.pdf", driver)
-```
